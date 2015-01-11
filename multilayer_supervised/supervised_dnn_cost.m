@@ -18,7 +18,6 @@ gradStack = cell(numHidden+1, 1);
 %% forward prop
 %%% YOUR CODE HERE %%%
 a = cell(numHidden + 2, 1);
-a{1} = data;
 z = cell(numHidden + 2, 1);
 delta = cell(numHidden + 2, 1);
 m = size(data, 2);
